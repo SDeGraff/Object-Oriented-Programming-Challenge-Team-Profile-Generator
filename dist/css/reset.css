@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Path: dist\css\style.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Path: dist\css\style.css */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+/* Path: dist\css\style.css */
+h1 {
+  font-size: 3rem;
+}
+
+/* Path: dist\css\style.css */
+h2 {
+  font-size: 2.5rem;
+}
+
+/* Path: dist\css\style.css */
+h3 {
+  font-size: 2rem;
+}
+
+/* Path: dist\css\style.css */
+h4 {
+  font-size: 1.5rem;
+}
+
+/* Path: dist\css\style.css */
+h5 {
+  font-size: 1.25rem;
+}
+
+/* Path: dist\css\style.css */
+h6 {
+  font-size: 1rem;
+}   
+
+/* Path: dist\css\style.css */
+p {
+  margin: 0 0 1.5rem 0;
+}
+
+/* Path: dist\css\style.css */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Path: dist\css\style.css */
+a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+/* Path: dist\css\style.css */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Path: dist\css\style.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Path: dist\css\style.css */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+
+/* Path: dist\css\style.css */
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Path: dist\css\style.css */
+.btn-primary {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Path: dist\css\style.css */
+.btn-primary:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+
+/* Path: dist\css\style.css */
+.btn-light {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Path: dist\css\style.css */
+.btn-light:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Path: dist\css\style.css */
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+/* Path: dist\css\style.css */
+.btn-round {
+  border-radius: 50px;
+}
+
+@media(prefers-reduced-motion: reduce) {
+    *{
+        transition: none !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        }
+    }
+
+
+
